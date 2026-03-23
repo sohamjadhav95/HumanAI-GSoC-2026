@@ -1,0 +1,5 @@
+Method,CER,WER,NED,ΔCER
+Baseline CRNN,0.9811,1.0000,0.9814,—
++ Weighted CTC Loss,0.9811,1.0000,0.9814,+0.0000
++ Constrained Beam Search,1.3137,1.0246,0.9670,+0.3325
++ LLM Post-processing,1.0192,1.0213,0.9786,-0.2945

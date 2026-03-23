@@ -1,0 +1,107 @@
+image,ground_truth,pred_baseline,pred_beam,pred_llm
+Buendia_Instruccion_page_0001_L_line_0000.jpg,Al,eae,e e e e,[???] [???] [???] [???]
+Buendia_Instruccion_page_0001_L_line_0001.jpg,INFINITAMENTE AMABLE,L,LLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0001_L_line_0002.jpg,NIÑO JESUS.,L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0001_L_line_0003.jpg,"A Vos, Dulcissimo Niño",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0001_L_line_0004.jpg,"JESUS, que no solo os",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0001_L_line_0005.jpg,dignasteis de llamaros,L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0001_L_line_0006.jpg,"Doctor de los Niños,",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0001_L_line_0007.jpg,sino también de assis-,L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0001_L_line_0008.jpg,"tir como Niño entre los Doctores,",L–,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL–,[???]–
+Buendia_Instruccion_page_0001_L_line_0009.jpg,se consagra humilde esta pequeña,L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0001_L_line_0010.jpg,"Instrucción de los Niños. Es assi,",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0001_L_line_0011.jpg,que ella también se dirige a la ju-,L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0001_L_line_0012.jpg,"ventud; pero a esta, como recuer-",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0001_L_line_0013.jpg,"do de lo que aprendió, a los Ni-",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0001_L_line_0014.jpg,"ños, como precisa explicacion de",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0001_L_line_0015.jpg,lo que deben estudiar. Por este so-,L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0001_L_line_0016.jpg,lo titulo es muy vuestra; y por,L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0001_L_line_0017.jpg,"ser para Niños, que confiais a la",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0001_L_line_0018.jpg,"educacion de vuestra Compañia,",L–E,LLEU,LLEU
+Buendia_Instruccion_page_0001_R_line_0000.jpg,"lo es mucho mas. En Vos, (Divi-",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0001_R_line_0001.jpg,no Exemplar de todas las virtu-,G,G,G
+Buendia_Instruccion_page_0002_L_line_0000.jpg,des) tienen abreviado el mas se-,L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0001.jpg,guro disseño de su edad: la Reli-,L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0002.jpg,gion para con Dios en la devota,L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0003.jpg,assistencia a los Templos; la piedad,L,LLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0004.jpg,con los Padres en la obediencia,L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0005.jpg,"mas rendida; y la modestia, y de-",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0006.jpg,"seo de saber, con los mayores,",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0007.jpg,"gustando mas de oir, y pregun-",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0008.jpg,"tar, que de definir, y resolver. Bien",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0009.jpg,que esto en vuestra infinita Sabi-,L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0010.jpg,"duria fue soberana dignacion, y",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0011.jpg,en la natural ignorancia de los,L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0012.jpg,Niños es indispensable necessi-,L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0013.jpg,dad.,L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0014.jpg,Ni tienen solamente en Vos,L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0015.jpg,"el disseño, la luz, y el exemplo,",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0016.jpg,"sino tambien el amor, y protec-",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0017.jpg,"cion. Vos, como singular Maes-",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0018.jpg,"tro de los Niños, les dais enten-",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0002_L_line_0019.jpg,"dimiento, y comunicais la sabi-",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+Buendia_Instruccion_page_0002_R_line_0000.jpg,duria. Vos les prometeis el Reyno,–6aea,LE e,Le e
+Buendia_Instruccion_page_0002_R_line_0001.jpg,"de los Cielos, y os indignais con",e,se e,se e
+Buendia_Instruccion_page_0002_R_line_0002.jpg,"quien les aparta de Vos, y les",e,se e,se e
+Buendia_Instruccion_page_0002_R_line_0003.jpg,proponeis por norma del can-,LAecAL,LLeva el cARLLLLLLLLLLLLLL,Lleua el carLLLLLLLLLLLLLL
+Buendia_Instruccion_page_0002_R_line_0004.jpg,"dor, inocencia, y christiana hu-",ea,ese ese e A,ese ese e A
+Buendia_Instruccion_page_0002_R_line_0005.jpg,mildad. Vuestro amor parece que,e,e e,e e
+Buendia_Instruccion_page_0002_R_line_0006.jpg,"no pudo explicarse mas tierno, y",ea,se e e e,se e e e
+Buendia_Instruccion_page_0002_R_line_0007.jpg,"liberal con los Niños, pues no",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+Buendia_Instruccion_page_0003_L_line_0000.jpg,contento de echarles vuestras di-,–EAa,LLEUa,Lleua
+Buendia_Instruccion_page_0003_L_line_0001.jpg,"vinas bendiciones, les unisteis",L–Aae,LLL–––––––––,LLL–––––––––
+Buendia_Instruccion_page_0003_L_line_0002.jpg,a vuestro sagrado pecho con sua-,e,e,e
+Buendia_Instruccion_page_0003_L_line_0003.jpg,"vissimos abrazos. Dichosa edad,",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+Buendia_Instruccion_page_0003_L_line_0004.jpg,que os merecio tan regalados cariños!,L–7AeAeAE,LLLLLLLLLLLLLLLLLLLLL–––7E,LLLLLLLLLLLLLLLLLLLLL–––7E
+Buendia_Instruccion_page_0003_L_line_0005.jpg,Y pues en la celestial Jeru-,L–L–L,LLLLLLLLLLLLL–––––L––LLLLLLLLLLLL,LLLLLLLLLLLLL–––––L––LLLLLLLLLLLL
+Buendia_Instruccion_page_0003_L_line_0006.jpg,salen no ha mudado de condicion,EA,E,E
+Buendia_Instruccion_page_0003_L_line_0007.jpg,"vuestra Benignidad, proseguid,",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+Buendia_Instruccion_page_0003_R_line_0000.jpg,"o Niño tierno, y Dios Eterno,",eaAL–,ese ese ALLLLLLLLLLLLLLLLLLL–,ese ese ALLLLLLLLLLLLLLLLLLL–
+Buendia_Instruccion_page_0003_R_line_0001.jpg,"proseguid en bendecirles, y favo-",–6ae,LA e,La e
+Buendia_Instruccion_page_0003_R_line_0002.jpg,recerles. Sean tan fervorosamen-,L–L,LL––––––––––LLLLLL,LL––––––––––LLLLLL
+Buendia_Instruccion_page_0003_R_line_0003.jpg,te devotos de vuestra Admirable,6ae,Gero,Gero
+Buendia_Instruccion_page_0003_R_line_0004.jpg,"MADRE, que se porten como sus",LAe,LLLLLAae ese ese e e el el,[???]
+Buendia_Instruccion_page_0003_R_line_0005.jpg,"hijos, y hermanos de leche con",ae,e e e,[???]
+Buendia_Instruccion_page_0003_R_line_0006.jpg,"Vos. Seran sabios, si fueren cas-",–E,LL–––––––––E,[???]
+Buendia_Instruccion_page_0003_R_line_0007.jpg,tos; que no entra vuestra Sabi-,L–,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL–,[???]
+Buendia_Instruccion_page_0003_R_line_0008.jpg,"duria, donde no ay mucha pure-",eaAL,se se ALLLLL,[???]
+Buendia_Instruccion_page_0003_R_line_0009.jpg,za de conciencia. Crezcan en,e,e,[???]
+Buendia_Instruccion_page_0003_R_line_0010.jpg,"vuestro santo temor, y amor, co-",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0004_L_line_0000.jpg,"como en los años, y mucho mas.",e,le e ese e ese ese ese e,[???]
+Buendia_Instruccion_page_0004_L_line_0001.jpg,"Adelantense en la virtud, como",e,ese e e,[???]
+Buendia_Instruccion_page_0004_L_line_0002.jpg,"en las letras, y mucho mas; has-",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0004_L_line_0003.jpg,"ta que lleguen, por vuesetra imi-",L–,LLLLLLLLLLLLLLLLLLLLLL–,[???]
+Buendia_Instruccion_page_0004_R_line_0000.jpg,"tacion, a ser varones perfectos,",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0004_R_line_0001.jpg,"y consumados, agradables a",e,se e,[???]
+Buendia_Instruccion_page_0004_R_line_0002.jpg,"vuestros ojos, y provechosos a",e,e,[???]
+Buendia_Instruccion_page_0005_L_line_0000.jpg,"la Republica, que libra casi to-",e,e e e,[???]
+Buendia_Instruccion_page_0005_L_line_0001.jpg,da su felizidad en la acertada,6tae,Gente,Gente
+Buendia_Instruccion_page_0005_L_line_0002.jpg,"crianza de la niñez. Assi sea,",–EAe,LE e,[???]
+Buendia_Instruccion_page_0005_L_line_0003.jpg,"Divinissimo Niño, por vuestra",L–7Ae,LLLLLLLLLLLLLLLLLLL–––6eae,[???]
+Buendia_Instruccion_page_0005_L_line_0004.jpg,"gracia, assi sea, a vuestra ma-",L–7ea,LLLLLLLLLLLLLLLLLLLLLLL–––,[???]
+Buendia_Instruccion_page_0005_L_line_0005.jpg,yor gloria. Amen.,e,ese e e,ese e e
+Buendia_Instruccion_page_0005_L_line_0006.jpg,CENSURA DEL R. P. ANTONIO CO-,L–,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL––,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL——
+Buendia_Instruccion_page_0005_R_line_0000.jpg,"dorniu de la Compañía de jesus, Maes-",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+Buendia_Instruccion_page_0005_R_line_0001.jpg,"tro que fue de Theologia, Examinador",eaeae,e e e e e e e e ese e e e e e e e e,e e e e e e e e ese e e e e e e e e
+Buendia_Instruccion_page_0005_R_line_0002.jpg,"Synodal de los Obispados de Gerona, Ur-", e,e,e
+Buendia_Instruccion_page_0005_R_line_0003.jpg,"gel, y Barcelona, Oc.",L,LLLLLLLLLLLLLLLLLLLLLL,LLLLLLLLLLLLLLLLLLLLLL
+Buendia_Instruccion_page_0005_R_line_0004.jpg,DE orden del Ilustre Señor Don Fran-,L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+Buendia_Instruccion_page_0005_R_line_0005.jpg,"cisco Drechos, Canonigo, y Sacristan",e,e,e
+Buendia_Instruccion_page_0005_R_line_0006.jpg,"Dignidad de la Santa Iglesia de Gerona, y",aAL–EA,alL––––––––––E,al L——————————E
+Buendia_Instruccion_page_0006_L_line_0000.jpg,Vicario General por el Ilustrissimo Señor,L–AelAe,LLL–––Aea lA el el,LLL———A la el el
+Buendia_Instruccion_page_0006_L_line_0001.jpg,"D. Balthasar de Bastero y lledo, Obispo",e,e,e
+Buendia_Instruccion_page_0006_L_line_0002.jpg,"de Gerona, del Consejo de su Magestad, & c.",LAeaAL–L,LLLLLLLLAaAELLL––––LLLLLLLLLLL,LLLLLLLL A la EL LLLLL————LLLLLLLLLLL
+Buendia_Instruccion_page_0006_L_line_0003.jpg,"He visto un Librito, cuyo titulo es: Ins-",L–Ae,LLLLL––––––A,LLLLL——————A
+Buendia_Instruccion_page_0006_L_line_0004.jpg,"truccion de Christiana, y Politica Cortesa-",6e,te,te
+Buendia_Instruccion_page_0006_L_line_0005.jpg,"nia, Oc. Su Author D. Fausto Agustin de",–,LL–––,LL———
+Buendia_Instruccion_page_0006_L_line_0006.jpg,"Buendia, Colegial que fue en el Imperial",L–A,LLLLLLLLLLLLL–––––,LLLLLLLLLLLLL—————
+Buendia_Instruccion_page_0006_R_line_0000.jpg,"de Cordellas, &c. Y brevemente digo,",LE,LE,LE
+Buendia_Instruccion_page_0006_R_line_0001.jpg,"no solo que nada contiene contra la Fe, y",L–L–,LLLLLL––LL––––,LLLLLL——LL————
+Buendia_Instruccion_page_0006_R_line_0002.jpg,"buenas costumbres, sino que muy atento",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+Buendia_Instruccion_page_0006_R_line_0003.jpg,"el Author con entrambas, describe, y en-",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+Buendia_Instruccion_page_0007_L_line_0000.jpg,"seña tan culta, y discreta la Virtud, co-",L–7eaAG,LLLLLLLLL–––6ae e el GE,[???] el [???]
+Buendia_Instruccion_page_0007_L_line_0001.jpg,"mo santa la Policia, y Urbanidad. Los",e,e e,[???]
+Buendia_Instruccion_page_0007_L_line_0002.jpg,"Señoritos, que se criaren con estos do-",L–7aea,LLLLLLLLLLLLLL–––7,[???] 7
+Buendia_Instruccion_page_0007_L_line_0003.jpg,"cumentos, mereceran, quando hombres,",L,LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0007_L_line_0004.jpg,aver nacido Señores. Porque no solo sa-,L–L,LLLLLLLLLLLL––––LLLLLLLLLLLLLLLLLLLLLL,[???]
+Buendia_Instruccion_page_0007_L_line_0005.jpg,"bran ser Caballeros, sino tambien a lo",e,se,se

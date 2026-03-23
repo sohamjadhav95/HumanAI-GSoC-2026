@@ -1,9 +1,26 @@
+# Large auto-generated data
 data/raw/
+data/pages/
+data/lines/
+
+# Model checkpoints
+outputs/checkpoints/
+
+# Python
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
+*.pyo
 .env
-.venv/
-venv/
-env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp / logs
+*.log
+*.tmp

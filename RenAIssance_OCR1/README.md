@@ -1,0 +1,108 @@
+# HumanAI GSoC 2026 — RenAIssance OCR1
+
+**Automating Text Recognition of 17th-Century Spanish Printed Sources**
+
+[![HumanAI Foundation](https://img.shields.io/badge/HumanAI-GSoC%202026-blue)](https://humanai.foundation/gsoc/2026/proposal_OCR1.html)
+[![Python](https://img.shields.io/badge/Python-3.10+-green)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.2+-red)](https://pytorch.org)
+
+---
+
+## Architecture
+
+```
+Scanned PDF → JPEG Pages → Text Line Crops → CRNN → Beam Decode → LLM Correction
+```
+
+| Component | Implementation |
+|---|---|
+| **Line Detection** | Horizontal projection segmentation (OpenCV) |
+| **CNN Backbone** | ResNet-18, adapted for grayscale |
+| **Sequence Model** | Bidirectional LSTM × 2 |
+| **Loss** | Weighted CTC (inverse-frequency char weights) |
+| **Decoder** | Constrained Beam Search + Renaissance Spanish lexicon |
+| **LLM Step** | Gemini 1.5 Pro post-correction (late-stage) |
+
+## Key Innovations
+
+1. **Weighted CTC Loss** — rare characters (ſ, diacritics, ligatures) receive higher loss weight
+2. **Constrained Beam Search** — lexicon trie penalises hallucinated non-words
+3. **Domain-aware LLM prompting** — Gemini 1.5 Pro with 17th-century Spanish context
+
+## Repository Structure
+
+```
+HumanAI-GSoC-2026/
+├── data/
+│   ├── raw/              ← place PDFs here
+│   ├── pages/            ← extracted JPEG pages (auto-generated)
+│   ├── lines/            ← cropped text line images (auto-generated)
+│   └── ground_truth/     ← transcription .txt files (one per PDF)
+├── notebooks/
+│   └── OCR1_RenAIssance.ipynb   ← main submission notebook
+├── src/
+│   ├── data_pipeline.py  ← PDF→pages→lines + Dataset
+│   ├── model.py          ← CRNN + WeightedCTC + BeamSearch
+│   ├── train.py          ← training loop + early stopping
+│   ├── evaluate.py       ← CER/WER/NED + ablation table
+│   └── llm_postprocess.py ← Gemini / GPT-4 correction
+├── lexicon/
+│   └── renaissance_spanish.txt  ← Early Modern Spanish wordlist
+├── outputs/              ← checkpoints, predictions, plots
+└── requirements.txt
+```
+
+## Quick Start (Google Colab)
+
+1. Upload this repo to Google Drive
+2. Open `notebooks/OCR1_RenAIssance.ipynb` in Colab (GPU runtime)
+3. Place PDF sources in `data/raw/`
+4. Place transcription `.txt` files in `data/ground_truth/`
+5. Set your `GOOGLE_API_KEY` in cell 7.1
+6. Run all cells
+
+## Ground Truth Format
+
+One `.txt` file per PDF source (same filename stem), one transcription line per text line:
+
+```
+data/ground_truth/source1.txt
+───────────────────────────────
+Eſte libro contiene las hiſtorias de los reyes
+de Caſtilla y León, ſegun fue ordenado por
+...
+```
+
+## Evaluation Metrics
+
+| Metric | Definition |
+|---|---|
+| **CER** | Character Error Rate — `edit_dist(pred, gt) / len(gt)` |
+| **WER** | Word Error Rate — word-level Levenshtein |
+| **NED** | Normalised Edit Distance — scale-invariant |
+
+**Target:** CER < 0.10 (90% character accuracy)
+
+## Ablation Results
+
+| Method | CER | WER | NED |
+|---|---|---|---|
+| Baseline CRNN | — | — | — |
+| + Weighted CTC Loss | — | — | — |
+| + Constrained Beam Search | — | — | — |
+| + LLM Post-processing | — | — | — |
+
+*(Results populated after training on RenAIssance dataset)*
+
+## Submission
+
+```bash
+jupyter nbconvert --to pdf notebooks/OCR1_RenAIssance.ipynb
+```
+
+Send notebook + PDF to `human-ai@cern.ch` with subject:  
+**Evaluation Test: RenAIssance**
+
+---
+
+**Author:** Soham Jadhav | **Mentor Org:** University of Alabama / Yale / CERN HumanAI
