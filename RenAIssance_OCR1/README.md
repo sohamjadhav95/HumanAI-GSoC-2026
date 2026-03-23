@@ -1,10 +1,6 @@
-# HumanAI GSoC 2026 — RenAIssance OCR1
+# HumanAI GSoC 2026 - RenAIssance OCR1
 
 **Automating Text Recognition of 17th-Century Spanish Printed Sources**
-
-[![HumanAI Foundation](https://img.shields.io/badge/HumanAI-GSoC%202026-blue)](https://humanai.foundation/gsoc/2026/proposal_OCR1.html)
-[![Python](https://img.shields.io/badge/Python-3.10+-green)](https://python.org)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.2+-red)](https://pytorch.org)
 
 ---
 
@@ -25,9 +21,9 @@ Scanned PDF → JPEG Pages → Text Line Crops → CRNN → Beam Decode → LLM 
 
 ## Key Innovations
 
-1. **Weighted CTC Loss** — rare characters (ſ, diacritics, ligatures) receive higher loss weight
-2. **Constrained Beam Search** — lexicon trie penalises hallucinated non-words
-3. **Domain-aware LLM prompting** — Gemini 1.5 Pro with 17th-century Spanish context
+1. **Weighted CTC Loss** - rare characters (ſ, diacritics, ligatures) receive higher loss weight
+2. **Constrained Beam Search** - lexicon trie penalises hallucinated non-words
+3. **Domain-aware LLM prompting** - Gemini 1.5 Pro with 17th-century Spanish context
 
 ## Repository Structure
 
@@ -77,15 +73,15 @@ de Caſtilla y León, ſegun fue ordenado por
 
 | Metric | Definition |
 |---|---|
-| **CER** | Character Error Rate — `edit_dist(pred, gt) / len(gt)` |
-| **WER** | Word Error Rate — word-level Levenshtein |
-| **NED** | Normalised Edit Distance — scale-invariant |
+| **CER** | Character Error Rate - `edit_dist(pred, gt) / len(gt)` |
+| **WER** | Word Error Rate - word-level Levenshtein |
+| **NED** | Normalised Edit Distance - scale-invariant |
 
 **Target:** CER < 0.10 (90% character accuracy)
 
 ## Ablation Results
 
-The following proof-of-concept results were obtained by training the pipeline on a constrained sample set (106 paired text lines) across 6 printed sources to validate the end-to-end architecture. Given the intentionally small training data used for this evaluation task, the base CRNN underfits, reflected in the high baseline error rates. The main objective here was successfully constructing and validating the full data flow—from raw PDF extraction and custom CTC handling to beam search and LLM intervention.
+The following proof-of-concept results were obtained by training the pipeline on a constrained sample set (106 paired text lines) across 6 printed sources to validate the end-to-end architecture. Given the intentionally small training data used for this evaluation task, the base CRNN underfits, reflected in the high baseline error rates. The main objective here was successfully constructing and validating the full data flow-from raw PDF extraction and custom CTC handling to beam search and LLM intervention.
 
 | Method | CER | WER | NED |
 |---|---|---|---|
@@ -97,7 +93,7 @@ The following proof-of-concept results were obtained by training the pipeline on
 **Analysis & Next Steps:**
 - The end-to-end pipeline correctly processes multi-page 17th-century PDFs, pairing line crops with ground truth dynamically.
 - The **LLM post-processing step** demonstrated a significant correction capability (ΔCER = -0.2945) over the beam search output. It successfully injected relevant Spanish Renaissance context to fix severe hallucinatory outputs from the uncalibrated acoustic model.
-- Scaling training to the full corpus during the GSoC period—alongside standard data augmentation—will naturally push the baseline CER towards our `< 0.10` target.
+- Scaling training to the full corpus during the GSoC period-alongside standard data augmentation-will naturally push the baseline CER towards our `< 0.10` target.
 
 ## Submission
 
